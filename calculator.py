@@ -1,11 +1,4 @@
-def add(a, b):
-    return a + b
-
-def subtract(a, b):
-    return a - b
-
-def multiply(a, b): # New function
-	return a * b
+from operations import add, subtract, multiply
 
 if __name__ == "__main__":
 	print("Simple Calculator")
